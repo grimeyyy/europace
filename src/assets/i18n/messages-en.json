@@ -1,0 +1,23 @@
+{
+  "HEADER": {
+    "REPAYMENT_PLAN": "Repayment Plan",
+    "HOME": "Home",
+    "CALCULATOR": "Calculator",
+    "CONTACT": "Contact"
+  },
+  "CALCULATOR": {
+    "LOAN_AMOUNT": "Loan amount (€)",
+    "TARGET_INTEREST": "Target interest (% p.a.)",
+    "INITIAL_REPAYMENT": "Initial repayment (% p.a.)",
+    "FIXED_INTEREST_RATE": "Fixed interest rate (years)",
+    "CALCULATE_REPAYMENT_PLAN": "Calculate repayment plan"
+  },
+  "TABLE": {
+    "DATE": "Date",
+    "RESIDUAL_DEBT": "Residual debt",
+    "INTEREST_CHARGES": "Interest charges",
+    "REPAYMENT_PAYOUT": "Repayment (+) / Payout (-)",
+    "RATE": "Rate",
+    "END_OF_RATE_FIXATION": "End of interest rate fixation"
+  }
+}

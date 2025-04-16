@@ -1,0 +1,22 @@
+<header class="mb-auto">
+  <div>
+    <h3 class="float-md-start mb-0">{{ 'HEADER.REPAYMENT_PLAN' | translate}}</h3>
+    <nav class="nav nav-masthead justify-content-center float-md-end">
+      <a class="nav-link fw-bold py-1 px-0"
+         routerLink="/home"
+         [routerLinkActive]="'active'"
+         #rla="routerLinkActive"
+         [attr.aria-current]="rla.isActive ? 'page' : null">
+        {{ 'HEADER.HOME' | translate}}
+      </a>
+      <a class="nav-link fw-bold py-1 px-0"
+         routerLink="/calculator"
+         [routerLinkActive]="'active'"
+         #rla="routerLinkActive"
+         [attr.aria-current]="rla.isActive ? 'page' : null">
+        {{ 'HEADER.CALCULATOR' | translate}}
+      </a>
+      <a class="nav-link fw-bold py-1 px-0" [href]="'mailto:andres.lobacovs@gmail.com'">{{ 'HEADER.CONTACT' | translate}}</a>
+    </nav>
+  </div>
+</header>
